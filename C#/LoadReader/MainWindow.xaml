@@ -1,0 +1,51 @@
+﻿<Window x:Class="LoadReader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoadReader"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <ListView Grid.ColumnSpan="3" x:Name="listView" ScrollViewer.VerticalScrollBarVisibility="Hidden">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <Button Content="{Binding ButtonText}" MinWidth="300" HorizontalContentAlignment="Left" Click="Button_Click"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <ContentControl Grid.ColumnSpan="3" Content="{Binding}" x:Name="characterInformation" Visibility="Collapsed">
+            <ContentControl.ContentTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="Gold: " />
+                        <TextBlock Text="{Binding Gold}" FontWeight="Bold" />
+                        <TextBlock Text="Materials: " />
+                        <TextBlock Text="{Binding Materials}" FontWeight="Bold" />
+                        <TextBlock Text="Profession: " />
+                        <TextBlock Text="{Binding Profession}" FontWeight="Bold" />
+                        <TextBlock Text="Code: " />
+                        <TextBlock Text="{Binding Code}" FontWeight="Bold" />
+                        <TextBlock Text="BankCode: " />
+                        <TextBlock Text="{Binding BankCode}" FontWeight="Bold" />
+                    </StackPanel>
+                </DataTemplate>
+            </ContentControl.ContentTemplate>
+        </ContentControl>
+        <Button Grid.Row="1" Grid.Column="0" Content="Back" Margin="3" Click="Back_Click" IsEnabled="False" x:Name="backButton"/>
+        <Button Grid.Row="1" Grid.Column="1" Content="Load" Margin="3"/>
+        <Button Grid.Row="1" Grid.Column="2" Content="Bank" Margin="3"/>
+    </Grid>
+</Window>

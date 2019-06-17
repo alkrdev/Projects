@@ -1,0 +1,901 @@
+          if (counting == 1)
+           {
+            blue1 = 0;
+           }
+          if (counting == 2)
+           { 
+            blue8 = 158;
+           }
+          if (counting == 3)
+           { 
+            blue7 = 158;
+            blue8 = 146;
+           }
+          if (counting == 4)
+           { 
+            blue6 = 158;
+            blue7 = 146;
+            blue8 = 146;
+           }
+          if (counting == 5)
+           { 
+            blue5 = 158;
+            blue6 = 146;
+            blue7 = 146;
+            blue8 = 242;
+           }
+          if (counting == 6)
+           { 
+            blue4 = 158;
+            blue5 = 146;
+            blue6 = 146;
+            blue7 = 242;
+            blue8 = 0;
+           }
+          if (counting == 7)
+           { 
+            blue3 = 158;
+            blue4 = 146;
+            blue5 = 146;
+            blue6 = 242;
+            blue7 = 0;
+            blue8 = 254;
+           }
+          if (counting == 8)
+           { 
+            blue2 = 158;
+            blue3 = 146;
+            blue4 = 146;
+            blue5 = 242;
+            blue6 = 0;
+            blue7 = 254;
+            blue8 = 16;
+           }
+          if (counting == 9)
+           { 
+            blue1 = 158;
+            blue2 = 146;
+            blue3 = 146;
+            blue4 = 242;
+            blue5 = 0;
+            blue6 = 254;
+            blue7 = 16;
+            blue8 = 16;
+           }
+          if (counting == 10)
+           { 
+            blue1 = 146;
+            blue2 = 146;
+            blue3 = 242;
+            blue4 = 0;
+            blue5 = 254;
+            blue6 = 16;
+            blue7 = 16;
+            blue8 = 254;
+           }
+          if (counting == 11)
+           { 
+            blue1 = 146;
+            blue2 = 242;
+            blue3 = 0;
+            blue4 = 254;
+            blue5 = 16;
+            blue6 = 16;
+            blue7 = 254;
+            blue8 = 0;
+           }
+          if (counting == 12)
+           { 
+            blue1 = 242;
+            blue2 = 0;
+            blue3 = 254;
+            blue4 = 16;
+            blue5 = 16;
+            blue6 = 254;
+            blue7 = 0;
+            blue8 = 254;
+           }
+          if (counting == 13)
+           { 
+            blue1 = 0;
+            blue2 = 254;
+            blue3 = 16;
+            blue4 = 16;
+            blue5 = 254;
+            blue6 = 0;
+            blue7 = 254;
+            blue8 = 146;
+           }
+          if (counting == 14)
+           { 
+            blue1 = 254;
+            blue2 = 16;
+            blue3 = 16;
+            blue4 = 254;
+            blue5 = 0;
+            blue6 = 254;
+            blue7 = 146;
+            blue8 = 146;
+           }
+          if (counting == 15)
+           { 
+            blue1 = 16;
+            blue2 = 16;
+            blue3 = 254;
+            blue4 = 0;
+            blue5 = 254;
+            blue6 = 146;
+            blue7 = 146;
+            blue8 = 146;
+           }
+          if (counting == 16)
+           { 
+            blue1 = 16;
+            blue2 = 254;
+            blue3 = 0;
+            blue4 = 254;
+            blue5 = 146;
+            blue6 = 146;
+            blue7 = 146;
+            blue8 = 0;
+           }
+          if (counting == 17)
+           { 
+            blue1 = 254;
+            blue2 = 0;
+            blue3 = 254;
+            blue4 = 146;
+            blue5 = 146;
+            blue6 = 146;
+            blue7 = 0;
+            blue8 = 254;
+           }
+          if (counting == 18)
+           { 
+            blue1 = 0;
+            blue2 = 254;
+            blue3 = 146;
+            blue4 = 146;
+            blue5 = 146;
+            blue6 = 0;
+            blue7 = 254;
+            blue8 = 146;
+           }
+          if (counting == 19)
+           { 
+            blue1 = 254;
+            blue2 = 146;
+            blue3 = 146;
+            blue4 = 146;
+            blue5 = 0;
+            blue6 = 254;
+            blue7 = 146;
+            blue8 = 146;
+           }
+          if (counting == 20)
+           { 
+            blue1 = 146;
+            blue2 = 146;
+            blue3 = 146;
+            blue4 = 0;
+            blue5 = 254;
+            blue6 = 146;
+            blue7 = 146;
+            blue8 = 146;
+           }
+          if (counting == 21)
+           { 
+            blue1 = 146;
+            blue2 = 146;
+            blue3 = 0;
+            blue4 = 254;
+            blue5 = 146;
+            blue6 = 146;
+            blue7 = 146;
+            blue8 = 0;
+           }
+          if (counting == 22)
+           { 
+            blue1 = 146;
+            blue2 = 0;
+            blue3 = 254;
+            blue4 = 146;
+            blue5 = 146;
+            blue6 = 146;
+            blue7 = 0;
+            blue8 = 254;
+           }
+          if (counting == 23)
+           { 
+            blue1 = 0;
+            blue2 = 254;
+            blue3 = 146;
+            blue4 = 146;
+            blue5 = 146;
+            blue6 = 0;
+            blue7 = 254;
+            blue8 = 18;
+           }
+          if (counting == 24)
+           { 
+            blue1 = 254;
+            blue2 = 146;
+            blue3 = 146;
+            blue4 = 146;
+            blue5 = 0;
+            blue6 = 254;
+            blue7 = 18;
+            blue8 = 18;
+           }
+          if (counting == 25)
+           { 
+            blue1 = 146;
+            blue2 = 146;
+            blue3 = 146;
+            blue4 = 0;
+            blue5 = 254;
+            blue6 = 18;
+            blue7 = 18;
+            blue8 = 12;
+           }
+          if (counting == 26)
+           { 
+            blue1 = 146;
+            blue2 = 146;
+            blue3 = 0;
+            blue4 = 254;
+            blue5 = 18;
+            blue6 = 18;
+            blue7 = 12;
+            blue8 = 0;
+           }
+          if (counting == 27)
+           { 
+            blue1 = 146;
+            blue2 = 0;
+            blue3 = 254;
+            blue4 = 18;
+            blue5 = 18;
+            blue6 = 12;
+            blue7 = 0;
+           }
+          if (counting == 28)
+           { 
+            blue1 = 0;
+            blue2 = 254;
+            blue3 = 18;
+            blue4 = 18;
+            blue5 = 12;
+            blue6 = 0;
+           }
+          if (counting == 29)
+           { 
+            blue1 = 254;
+            blue2 = 18;
+            blue3 = 18;
+            blue4 = 12;
+            blue5 = 0;
+           }
+          if (counting == 30)
+           { 
+            blue1 = 18;
+            blue2 = 18;
+            blue3 = 12;
+            blue4 = 0;
+           }
+          if (counting == 31)
+           { 
+            blue1 = 18;
+            blue2 = 12;
+            blue3 = 0;
+           }
+          if (counting == 32)
+           { 
+            blue1 = 12;
+            blue2 = 0;
+           }
+          if (counting == 33)
+           { 
+            blue1 = 0;
+           }
+          if (counting == 34)
+           {
+            red1 = 0;
+           }
+          if (counting == 35)
+           { 
+            red8 = 158;
+           }
+          if (counting == 36)
+           { 
+            red7 = 158;
+            red8 = 146;
+           }
+          if (counting == 37)
+           { 
+            red6 = 158;
+            red7 = 146;
+            red8 = 146;
+           }
+          if (counting == 38)
+           { 
+            red5 = 158;
+            red6 = 146;
+            red7 = 146;
+            red8 = 242;
+           }
+          if (counting == 39)
+           { 
+            red4 = 158;
+            red5 = 146;
+            red6 = 146;
+            red7 = 242;
+            red8 = 0;
+           }
+          if (counting == 40)
+           { 
+            red3 = 158;
+            red4 = 146;
+            red5 = 146;
+            red6 = 242;
+            red7 = 0;
+            red8 = 254;
+           }
+          if (counting == 41)
+           { 
+            red2 = 158;
+            red3 = 146;
+            red4 = 146;
+            red5 = 242;
+            red6 = 0;
+            red7 = 254;
+            red8 = 16;
+           }
+          if (counting == 42)
+           { 
+            red1 = 158;
+            red2 = 146;
+            red3 = 146;
+            red4 = 242;
+            red5 = 0;
+            red6 = 254;
+            red7 = 16;
+            red8 = 16;
+           }
+          if (counting == 43)
+           { 
+            red1 = 146;
+            red2 = 146;
+            red3 = 242;
+            red4 = 0;
+            red5 = 254;
+            red6 = 16;
+            red7 = 16;
+            red8 = 254;
+           }
+          if (counting == 44)
+           { 
+            red1 = 146;
+            red2 = 242;
+            red3 = 0;
+            red4 = 254;
+            red5 = 16;
+            red6 = 16;
+            red7 = 254;
+            red8 = 0;
+           }
+          if (counting == 45)
+           { 
+            red1 = 242;
+            red2 = 0;
+            red3 = 254;
+            red4 = 16;
+            red5 = 16;
+            red6 = 254;
+            red7 = 0;
+            red8 = 254;
+           }
+          if (counting == 46)
+           { 
+            red1 = 0;
+            red2 = 254;
+            red3 = 16;
+            red4 = 16;
+            red5 = 254;
+            red6 = 0;
+            red7 = 254;
+            red8 = 146;
+           }
+          if (counting == 47)
+           { 
+            red1 = 254;
+            red2 = 16;
+            red3 = 16;
+            red4 = 254;
+            red5 = 0;
+            red6 = 254;
+            red7 = 146;
+            red8 = 146;
+           }
+          if (counting == 48)
+           { 
+            red1 = 16;
+            red2 = 16;
+            red3 = 254;
+            red4 = 0;
+            red5 = 254;
+            red6 = 146;
+            red7 = 146;
+            red8 = 146;
+           }
+          if (counting == 49)
+           { 
+            red1 = 16;
+            red2 = 254;
+            red3 = 0;
+            red4 = 254;
+            red5 = 146;
+            red6 = 146;
+            red7 = 146;
+            red8 = 0;
+           }
+          if (counting == 50)
+           { 
+            red1 = 254;
+            red2 = 0;
+            red3 = 254;
+            red4 = 146;
+            red5 = 146;
+            red6 = 146;
+            red7 = 0;
+            red8 = 254;
+           }
+          if (counting == 51)
+           { 
+            red1 = 0;
+            red2 = 254;
+            red3 = 146;
+            red4 = 146;
+            red5 = 146;
+            red6 = 0;
+            red7 = 254;
+            red8 = 146;
+           }
+          if (counting == 52)
+           { 
+            red1 = 254;
+            red2 = 146;
+            red3 = 146;
+            red4 = 146;
+            red5 = 0;
+            red6 = 254;
+            red7 = 146;
+            red8 = 146;
+           }
+          if (counting == 53)
+           { 
+            red1 = 146;
+            red2 = 146;
+            red3 = 146;
+            red4 = 0;
+            red5 = 254;
+            red6 = 146;
+            red7 = 146;
+            red8 = 146;
+           }
+          if (counting == 54)
+           { 
+            red1 = 146;
+            red2 = 146;
+            red3 = 0;
+            red4 = 254;
+            red5 = 146;
+            red6 = 146;
+            red7 = 146;
+            red8 = 0;
+           }
+          if (counting == 55)
+           { 
+            red1 = 146;
+            red2 = 0;
+            red3 = 254;
+            red4 = 146;
+            red5 = 146;
+            red6 = 146;
+            red7 = 0;
+            red8 = 254;
+           }
+          if (counting == 56)
+           { 
+            red1 = 0;
+            red2 = 254;
+            red3 = 146;
+            red4 = 146;
+            red5 = 146;
+            red6 = 0;
+            red7 = 254;
+            red8 = 18;
+           }
+          if (counting == 57)
+           { 
+            red1 = 254;
+            red2 = 146;
+            red3 = 146;
+            red4 = 146;
+            red5 = 0;
+            red6 = 254;
+            red7 = 18;
+            red8 = 18;
+           }
+          if (counting == 58)
+           { 
+            red1 = 146;
+            red2 = 146;
+            red3 = 146;
+            red4 = 0;
+            red5 = 254;
+            red6 = 18;
+            red7 = 18;
+            red8 = 12;
+           }
+          if (counting == 59)
+           { 
+            red1 = 146;
+            red2 = 146;
+            red3 = 0;
+            red4 = 254;
+            red5 = 18;
+            red6 = 18;
+            red7 = 12;
+            red8 = 0;
+           }
+          if (counting == 60)
+           { 
+            red1 = 146;
+            red2 = 0;
+            red3 = 254;
+            red4 = 18;
+            red5 = 18;
+            red6 = 12;
+            red7 = 0;
+           }
+          if (counting == 61)
+           { 
+            red1 = 0;
+            red2 = 254;
+            red3 = 18;
+            red4 = 18;
+            red5 = 12;
+            red6 = 0;
+           }
+          if (counting == 62)
+           { 
+            red1 = 254;
+            red2 = 18;
+            red3 = 18;
+            red4 = 12;
+            red5 = 0;
+           }
+          if (counting == 63)
+           { 
+            red1 = 18;
+            red2 = 18;
+            red3 = 12;
+            red4 = 0;
+           }
+          if (counting == 64)
+           { 
+            red1 = 18;
+            red2 = 12;
+            red3 = 0;
+           }
+          if (counting == 65)
+           { 
+            red1 = 12;
+            red2 = 0;
+           }
+          if (counting == 66)
+           { 
+            red1 = 0;
+           }
+          if (counting == 67)
+           {
+            green1 = 0;
+           }
+          if (counting == 68)
+           { 
+            green8 = 158;
+           }
+          if (counting == 69)
+           { 
+            green7 = 158;
+            green8 = 146;
+           }
+          if (counting == 70)
+           { 
+            green6 = 158;
+            green7 = 146;
+            green8 = 146;
+           }
+          if (counting == 71)
+           { 
+            green5 = 158;
+            green6 = 146;
+            green7 = 146;
+            green8 = 242;
+           }
+          if (counting == 72)
+           { 
+            green4 = 158;
+            green5 = 146;
+            green6 = 146;
+            green7 = 242;
+            green8 = 0;
+           }
+          if (counting == 73)
+           { 
+            green3 = 158;
+            green4 = 146;
+            green5 = 146;
+            green6 = 242;
+            green7 = 0;
+            green8 = 254;
+           }
+          if (counting == 74)
+           { 
+            green2 = 158;
+            green3 = 146;
+            green4 = 146;
+            green5 = 242;
+            green6 = 0;
+            green7 = 254;
+            green8 = 16;
+           }
+          if (counting == 75)
+           { 
+            green1 = 158;
+            green2 = 146;
+            green3 = 146;
+            green4 = 242;
+            green5 = 0;
+            green6 = 254;
+            green7 = 16;
+            green8 = 16;
+           }
+          if (counting == 76)
+           { 
+            green1 = 146;
+            green2 = 146;
+            green3 = 242;
+            green4 = 0;
+            green5 = 254;
+            green6 = 16;
+            green7 = 16;
+            green8 = 254;
+           }
+          if (counting == 77)
+           { 
+            green1 = 146;
+            green2 = 242;
+            green3 = 0;
+            green4 = 254;
+            green5 = 16;
+            green6 = 16;
+            green7 = 254;
+            green8 = 0;
+           }
+          if (counting == 78)
+           { 
+            green1 = 242;
+            green2 = 0;
+            green3 = 254;
+            green4 = 16;
+            green5 = 16;
+            green6 = 254;
+            green7 = 0;
+            green8 = 254;
+           }
+          if (counting == 79)
+           { 
+            green1 = 0;
+            green2 = 254;
+            green3 = 16;
+            green4 = 16;
+            green5 = 254;
+            green6 = 0;
+            green7 = 254;
+            green8 = 146;
+           }
+          if (counting == 80)
+           { 
+            green1 = 254;
+            green2 = 16;
+            green3 = 16;
+            green4 = 254;
+            green5 = 0;
+            green6 = 254;
+            green7 = 146;
+            green8 = 146;
+           }
+          if (counting == 81)
+           { 
+            green1 = 16;
+            green2 = 16;
+            green3 = 254;
+            green4 = 0;
+            green5 = 254;
+            green6 = 146;
+            green7 = 146;
+            green8 = 146;
+           }
+          if (counting == 82)
+           { 
+            green1 = 16;
+            green2 = 254;
+            green3 = 0;
+            green4 = 254;
+            green5 = 146;
+            green6 = 146;
+            green7 = 146;
+            green8 = 0;
+           }
+          if (counting == 83)
+           { 
+            green1 = 254;
+            green2 = 0;
+            green3 = 254;
+            green4 = 146;
+            green5 = 146;
+            green6 = 146;
+            green7 = 0;
+            green8 = 254;
+           }
+          if (counting == 84)
+           { 
+            green1 = 0;
+            green2 = 254;
+            green3 = 146;
+            green4 = 146;
+            green5 = 146;
+            green6 = 0;
+            green7 = 254;
+            green8 = 146;
+           }
+          if (counting == 85)
+           { 
+            green1 = 254;
+            green2 = 146;
+            green3 = 146;
+            green4 = 146;
+            green5 = 0;
+            green6 = 254;
+            green7 = 146;
+            green8 = 146;
+           }
+          if (counting == 86)
+           { 
+            green1 = 146;
+            green2 = 146;
+            green3 = 146;
+            green4 = 0;
+            green5 = 254;
+            green6 = 146;
+            green7 = 146;
+            green8 = 146;
+           }
+          if (counting == 87)
+           { 
+            green1 = 146;
+            green2 = 146;
+            green3 = 0;
+            green4 = 254;
+            green5 = 146;
+            green6 = 146;
+            green7 = 146;
+            green8 = 0;
+           }
+          if (counting == 88)
+           { 
+            green1 = 146;
+            green2 = 0;
+            green3 = 254;
+            green4 = 146;
+            green5 = 146;
+            green6 = 146;
+            green7 = 0;
+            green8 = 254;
+           }
+          if (counting == 89)
+           { 
+            green1 = 0;
+            green2 = 254;
+            green3 = 146;
+            green4 = 146;
+            green5 = 146;
+            green6 = 0;
+            green7 = 254;
+            green8 = 18;
+           }
+          if (counting == 90)
+           { 
+            green1 = 254;
+            green2 = 146;
+            green3 = 146;
+            green4 = 146;
+            green5 = 0;
+            green6 = 254;
+            green7 = 18;
+            green8 = 18;
+           }
+          if (counting == 91)
+           { 
+            green1 = 146;
+            green2 = 146;
+            green3 = 146;
+            green4 = 0;
+            green5 = 254;
+            green6 = 18;
+            green7 = 18;
+            green8 = 12;
+           }
+          if (counting == 92)
+           { 
+            green1 = 146;
+            green2 = 146;
+            green3 = 0;
+            green4 = 254;
+            green5 = 18;
+            green6 = 18;
+            green7 = 12;
+            green8 = 0;
+           }
+          if (counting == 93)
+           { 
+            green1 = 146;
+            green2 = 0;
+            green3 = 254;
+            green4 = 18;
+            green5 = 18;
+            green6 = 12;
+            green7 = 0;
+           }
+          if (counting == 94)
+           { 
+            green1 = 0;
+            green2 = 254;
+            green3 = 18;
+            green4 = 18;
+            green5 = 12;
+            green6 = 0;
+           }
+          if (counting == 95)
+           { 
+            green1 = 254;
+            green2 = 18;
+            green3 = 18;
+            green4 = 12;
+            green5 = 0;
+           }
+          if (counting == 96)
+           { 
+            green1 = 18;
+            green2 = 18;
+            green3 = 12;
+            green4 = 0;
+           }
+          if (counting == 97)
+           { 
+            green1 = 18;
+            green2 = 12;
+            green3 = 0;
+           }
+          if (counting == 98)
+           { 
+            green1 = 12;
+            green2 = 0;
+           }
+          if (counting == 99)
+           { 
+            green1 = 0;
+            counting = 0;
+           }

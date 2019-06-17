@@ -1,0 +1,19 @@
+    1   2   4   8  16  32  64 128
+1   x   o   o   o   o   o   o   x
+
+2   o   x   x   x   x   x   x   o 
+
+4   o   x   o   o   o   o   x   o
+
+8   o   x   o   x   x   o   x   o
+
+16  o   x   o   x   x   o   x   o
+
+32  o   x   o   o   o   o   x   o
+
+64  o   x   x   x   x   x   x   o
+
+128 x   o   o   o   o   o   o   x
+
+blue red   green
+red  green blue	

@@ -1,0 +1,1753 @@
+
+            
+            case 5:
+             
+            blue[4] = 158;
+            blue[5] = 146;
+            blue[6] = 146;
+            blue[7] = 242;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 6:
+             
+            blue[3] = 158;
+            blue[4] = 146;
+            blue[5] = 146;
+            blue[6] = 242;
+            blue[7] = 0;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 7:
+             
+            blue[2] = 158;
+            blue[3] = 146;
+            blue[4] = 146;
+            blue[5] = 242;
+            blue[6] = 0;
+            blue[7] = 254;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 8:
+             
+            blue[1] = 158;
+            blue[2] = 146;
+            blue[3] = 146;
+            blue[4] = 242;
+            blue[5] = 0;
+            blue[6] = 254;
+            blue[7] = 16;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 9:
+             
+            blue[0] = 158;
+            blue[1] = 146;
+            blue[2] = 146;
+            blue[3] = 242;
+            blue[4] = 0;
+            blue[5] = 254;
+            blue[6] = 16;
+            blue[7] = 16;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 10:
+             
+            blue[0] = 146;
+            blue[1] = 146;
+            blue[2] = 242;
+            blue[3] = 0;
+            blue[4] = 254;
+            blue[5] = 16;
+            blue[6] = 16;
+            blue[7] = 254;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 11:
+             
+            blue[0] = 146;
+            blue[1] = 242;
+            blue[2] = 0;
+            blue[3] = 254;
+            blue[4] = 16;
+            blue[5] = 16;
+            blue[6] = 254;
+            blue[7] = 0;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 12:
+             
+            blue[0] = 242;
+            blue[1] = 0;
+            blue[2] = 254;
+            blue[3] = 16;
+            blue[4] = 16;
+            blue[5] = 254;
+            blue[6] = 0;
+            blue[7] = 254;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 13:
+             
+            blue[0] = 0;
+            blue[1] = 254;
+            blue[2] = 16;
+            blue[3] = 16;
+            blue[4] = 254;
+            blue[5] = 0;
+            blue[6] = 254;
+            blue[7] = 146;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 14:
+             
+            blue[0] = 254;
+            blue[1] = 16;
+            blue[2] = 16;
+            blue[3] = 254;
+            blue[4] = 0;
+            blue[5] = 254;
+            blue[6] = 146;
+            blue[7] = 146;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 15:
+             
+            blue[0] = 16;
+            blue[1] = 16;
+            blue[2] = 254;
+            blue[3] = 0;
+            blue[4] = 254;
+            blue[5] = 146;
+            blue[6] = 146;
+            blue[7] = 146;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 16:
+             
+            blue[0] = 16;
+            blue[1] = 254;
+            blue[2] = 0;
+            blue[3] = 254;
+            blue[4] = 146;
+            blue[5] = 146;
+            blue[6] = 146;
+            blue[7] = 0;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 17:
+             
+            blue[0] = 254;
+            blue[1] = 0;
+            blue[2] = 254;
+            blue[3] = 146;
+            blue[4] = 146;
+            blue[5] = 146;
+            blue[6] = 0;
+            blue[7] = 254;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 18:
+             
+            blue[0] = 0;
+            blue[1] = 254;
+            blue[2] = 146;
+            blue[3] = 146;
+            blue[4] = 146;
+            blue[5] = 0;
+            blue[6] = 254;
+            blue[7] = 146;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 19:
+             
+            blue[0] = 254;
+            blue[1] = 146;
+            blue[2] = 146;
+            blue[3] = 146;
+            blue[4] = 0;
+            blue[5] = 254;
+            blue[6] = 146;
+            blue[7] = 146;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 20:
+             
+            blue[0] = 146;
+            blue[1] = 146;
+            blue[2] = 146;
+            blue[3] = 0;
+            blue[4] = 254;
+            blue[5] = 146;
+            blue[6] = 146;
+            blue[7] = 146;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 21:
+             
+            blue[0] = 146;
+            blue[1] = 146;
+            blue[2] = 0;
+            blue[3] = 254;
+            blue[4] = 146;
+            blue[5] = 146;
+            blue[6] = 146;
+            blue[7] = 0;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 22:
+             
+            blue[0] = 146;
+            blue[1] = 0;
+            blue[2] = 254;
+            blue[3] = 146;
+            blue[4] = 146;
+            blue[5] = 146;
+            blue[6] = 0;
+            blue[7] = 254;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 23:
+             
+            blue[0] = 0;
+            blue[1] = 254;
+            blue[2] = 146;
+            blue[3] = 146;
+            blue[4] = 146;
+            blue[5] = 0;
+            blue[6] = 254;
+            blue[7] = 18;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 24:
+             
+            blue[0] = 254;
+            blue[1] = 146;
+            blue[2] = 146;
+            blue[3] = 146;
+            blue[4] = 0;
+            blue[5] = 254;
+            blue[6] = 18;
+            blue[7] = 18;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 25:
+             
+            blue[0] = 146;
+            blue[1] = 146;
+            blue[2] = 146;
+            blue[3] = 0;
+            blue[4] = 254;
+            blue[5] = 18;
+            blue[6] = 18;
+            blue[7] = 12;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 26:
+             
+            blue[0] = 146;
+            blue[1] = 146;
+            blue[2] = 0;
+            blue[3] = 254;
+            blue[4] = 18;
+            blue[5] = 18;
+            blue[6] = 12;
+            blue[7] = 0;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 27:
+             
+            blue[0] = 146;
+            blue[1] = 0;
+            blue[2] = 254;
+            blue[3] = 18;
+            blue[4] = 18;
+            blue[5] = 12;
+            blue[6] = 0;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 28:
+             
+            blue[0] = 0;
+            blue[1] = 254;
+            blue[2] = 18;
+            blue[3] = 18;
+            blue[4] = 12;
+            blue[5] = 0;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 29:
+             
+            blue[0] = 254;
+            blue[1] = 18;
+            blue[2] = 18;
+            blue[3] = 12;
+            blue[4] = 0;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 30:
+             
+            blue[0] = 18;
+            blue[1] = 18;
+            blue[2] = 12;
+            blue[3] = 0;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 31:
+             
+            blue[0] = 18;
+            blue[1] = 12;
+            blue[2] = 0;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 32:
+             
+            blue[0] = 12;
+            blue[1] = 0;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 33:
+             
+            blue[0] = 0;
+            red[0] = 255-blue[0];
+            red[1] = 255-blue[1];
+            red[2] = 255-blue[2];
+            red[3] = 255-blue[3];
+            red[4] = 255-blue[4];
+            red[5] = 255-blue[5];
+            red[6] = 255-blue[6];
+            red[7] = 255-blue[7];
+            break;
+            
+            case 34:
+            
+            red[0] = 0;
+            red[1] = 0;
+            red[2] = 0;
+            red[3] = 0;
+            red[4] = 0;
+            red[5] = 0;
+            red[6] = 0;
+            red[7] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 35:
+             
+            red[7] = 158;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 36:
+             
+            red[6] = 158;
+            red[7] = 146;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 37:
+             
+            red[5] = 158;
+            red[6] = 146;
+            red[7] = 146;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 38:
+             
+            red[4] = 158;
+            red[5] = 146;
+            red[6] = 146;
+            red[7] = 242;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 39:
+             
+            red[3] = 158;
+            red[4] = 146;
+            red[5] = 146;
+            red[6] = 242;
+            red[7] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 40:
+             
+            red[2] = 158;
+            red[3] = 146;
+            red[4] = 146;
+            red[5] = 242;
+            red[6] = 0;
+            red[7] = 254;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 41:
+             
+            red[1] = 158;
+            red[2] = 146;
+            red[3] = 146;
+            red[4] = 242;
+            red[5] = 0;
+            red[6] = 254;
+            red[7] = 16;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 42:
+             
+            red[0] = 158;
+            red[1] = 146;
+            red[2] = 146;
+            red[3] = 242;
+            red[4] = 0;
+            red[5] = 254;
+            red[6] = 16;
+            red[7] = 16;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 43:
+             
+            red[0] = 146;
+            red[1] = 146;
+            red[2] = 242;
+            red[3] = 0;
+            red[4] = 254;
+            red[5] = 16;
+            red[6] = 16;
+            red[7] = 254;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 44:
+             
+            red[0] = 146;
+            red[1] = 242;
+            red[2] = 0;
+            red[3] = 254;
+            red[4] = 16;
+            red[5] = 16;
+            red[6] = 254;
+            red[7] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 45:
+             
+            red[0] = 242;
+            red[1] = 0;
+            red[2] = 254;
+            red[3] = 16;
+            red[4] = 16;
+            red[5] = 254;
+            red[6] = 0;
+            red[7] = 254;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 46:
+             
+            red[0] = 0;
+            red[1] = 254;
+            red[2] = 16;
+            red[3] = 16;
+            red[4] = 254;
+            red[5] = 0;
+            red[6] = 254;
+            red[7] = 146;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 47:
+             
+            red[0] = 254;
+            red[1] = 16;
+            red[2] = 16;
+            red[3] = 254;
+            red[4] = 0;
+            red[5] = 254;
+            red[6] = 146;
+            red[7] = 146;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 48:
+             
+            red[0] = 16;
+            red[1] = 16;
+            red[2] = 254;
+            red[3] = 0;
+            red[4] = 254;
+            red[5] = 146;
+            red[6] = 146;
+            red[7] = 146;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 49:
+             
+            red[0] = 16;
+            red[1] = 254;
+            red[2] = 0;
+            red[3] = 254;
+            red[4] = 146;
+            red[5] = 146;
+            red[6] = 146;
+            red[7] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 50:
+             
+            red[0] = 254;
+            red[1] = 0;
+            red[2] = 254;
+            red[3] = 146;
+            red[4] = 146;
+            red[5] = 146;
+            red[6] = 0;
+            red[7] = 254;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 51:
+             
+            red[0] = 0;
+            red[1] = 254;
+            red[2] = 146;
+            red[3] = 146;
+            red[4] = 146;
+            red[5] = 0;
+            red[6] = 254;
+            red[7] = 146;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 52:
+             
+            red[0] = 254;
+            red[1] = 146;
+            red[2] = 146;
+            red[3] = 146;
+            red[4] = 0;
+            red[5] = 254;
+            red[6] = 146;
+            red[7] = 146;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 53:
+             
+            red[0] = 146;
+            red[1] = 146;
+            red[2] = 146;
+            red[3] = 0;
+            red[4] = 254;
+            red[5] = 146;
+            red[6] = 146;
+            red[7] = 146;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 54:
+             
+            red[0] = 146;
+            red[1] = 146;
+            red[2] = 0;
+            red[3] = 254;
+            red[4] = 146;
+            red[5] = 146;
+            red[6] = 146;
+            red[7] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 55:
+             
+            red[0] = 146;
+            red[1] = 0;
+            red[2] = 254;
+            red[3] = 146;
+            red[4] = 146;
+            red[5] = 146;
+            red[6] = 0;
+            red[7] = 254;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 56:
+             
+            red[0] = 0;
+            red[1] = 254;
+            red[2] = 146;
+            red[3] = 146;
+            red[4] = 146;
+            red[5] = 0;
+            red[6] = 254;
+            red[7] = 18;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 57:
+             
+            red[0] = 254;
+            red[1] = 146;
+            red[2] = 146;
+            red[3] = 146;
+            red[4] = 0;
+            red[5] = 254;
+            red[6] = 18;
+            red[7] = 18;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 58:
+             
+            red[0] = 146;
+            red[1] = 146;
+            red[2] = 146;
+            red[3] = 0;
+            red[4] = 254;
+            red[5] = 18;
+            red[6] = 18;
+            red[7] = 12;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 59:
+             
+            red[0] = 146;
+            red[1] = 146;
+            red[2] = 0;
+            red[3] = 254;
+            red[4] = 18;
+            red[5] = 18;
+            red[6] = 12;
+            red[7] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 60:
+             
+            red[0] = 146;
+            red[1] = 0;
+            red[2] = 254;
+            red[3] = 18;
+            red[4] = 18;
+            red[5] = 12;
+            red[6] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 61:
+             
+            red[0] = 0;
+            red[1] = 254;
+            red[2] = 18;
+            red[3] = 18;
+            red[4] = 12;
+            red[5] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 62:
+             
+            red[0] = 254;
+            red[1] = 18;
+            red[2] = 18;
+            red[3] = 12;
+            red[4] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 63:
+             
+            red[0] = 18;
+            red[1] = 18;
+            red[2] = 12;
+            red[3] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 64:
+             
+            red[0] = 18;
+            red[1] = 12;
+            red[2] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 65:
+             
+            red[0] = 12;
+            red[1] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 66:
+             
+            red[0] = 0;
+            green[0] = 255-red[0];
+            green[1] = 255-red[1];
+            green[2] = 255-red[2];
+            green[3] = 255-red[3];
+            green[4] = 255-red[4];
+            green[5] = 255-red[5];
+            green[6] = 255-red[6];
+            green[7] = 255-red[7];
+            break;
+            
+            case 67:
+            
+            green[0] = 0;
+            green[1] = 0;
+            green[2] = 0;
+            green[3] = 0;
+            green[4] = 0;
+            green[5] = 0;
+            green[6] = 0;
+            green[7] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 68:
+             
+            green[7] = 158;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 69:
+             
+            green[6] = 158;
+            green[7] = 146;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 70:
+             
+            green[5] = 158;
+            green[6] = 146;
+            green[7] = 146;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 71:
+             
+            green[4] = 158;
+            green[5] = 146;
+            green[6] = 146;
+            green[7] = 242;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 72:
+             
+            green[3] = 158;
+            green[4] = 146;
+            green[5] = 146;
+            green[6] = 242;
+            green[7] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 73:
+             
+            green[2] = 158;
+            green[3] = 146;
+            green[4] = 146;
+            green[5] = 242;
+            green[6] = 0;
+            green[7] = 254;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 74:
+             
+            green[1] = 158;
+            green[2] = 146;
+            green[3] = 146;
+            green[4] = 242;
+            green[5] = 0;
+            green[6] = 254;
+            green[7] = 16;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 75:
+             
+            green[0] = 158;
+            green[1] = 146;
+            green[2] = 146;
+            green[3] = 242;
+            green[4] = 0;
+            green[5] = 254;
+            green[6] = 16;
+            green[7] = 16;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 76:
+             
+            green[0] = 146;
+            green[1] = 146;
+            green[2] = 242;
+            green[3] = 0;
+            green[4] = 254;
+            green[5] = 16;
+            green[6] = 16;
+            green[7] = 254;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 77:
+             
+            green[0] = 146;
+            green[1] = 242;
+            green[2] = 0;
+            green[3] = 254;
+            green[4] = 16;
+            green[5] = 16;
+            green[6] = 254;
+            green[7] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 78:
+             
+            green[0] = 242;
+            green[1] = 0;
+            green[2] = 254;
+            green[3] = 16;
+            green[4] = 16;
+            green[5] = 254;
+            green[6] = 0;
+            green[7] = 254;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 79:
+             
+            green[0] = 0;
+            green[1] = 254;
+            green[2] = 16;
+            green[3] = 16;
+            green[4] = 254;
+            green[5] = 0;
+            green[6] = 254;
+            green[7] = 146;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 80:
+             
+            green[0] = 254;
+            green[1] = 16;
+            green[2] = 16;
+            green[3] = 254;
+            green[4] = 0;
+            green[5] = 254;
+            green[6] = 146;
+            green[7] = 146;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 81:
+             
+            green[0] = 16;
+            green[1] = 16;
+            green[2] = 254;
+            green[3] = 0;
+            green[4] = 254;
+            green[5] = 146;
+            green[6] = 146;
+            green[7] = 146;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 82:
+             
+            green[0] = 16;
+            green[1] = 254;
+            green[2] = 0;
+            green[3] = 254;
+            green[4] = 146;
+            green[5] = 146;
+            green[6] = 146;
+            green[7] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 83:
+             
+            green[0] = 254;
+            green[1] = 0;
+            green[2] = 254;
+            green[3] = 146;
+            green[4] = 146;
+            green[5] = 146;
+            green[6] = 0;
+            green[7] = 254;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 84:
+             
+            green[0] = 0;
+            green[1] = 254;
+            green[2] = 146;
+            green[3] = 146;
+            green[4] = 146;
+            green[5] = 0;
+            green[6] = 254;
+            green[7] = 146;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 85:
+             
+            green[0] = 254;
+            green[1] = 146;
+            green[2] = 146;
+            green[3] = 146;
+            green[4] = 0;
+            green[5] = 254;
+            green[6] = 146;
+            green[7] = 146;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 86:
+             
+            green[0] = 146;
+            green[1] = 146;
+            green[2] = 146;
+            green[3] = 0;
+            green[4] = 254;
+            green[5] = 146;
+            green[6] = 146;
+            green[7] = 146;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 87:
+             
+            green[0] = 146;
+            green[1] = 146;
+            green[2] = 0;
+            green[3] = 254;
+            green[4] = 146;
+            green[5] = 146;
+            green[6] = 146;
+            green[7] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 88:
+             
+            green[0] = 146;
+            green[1] = 0;
+            green[2] = 254;
+            green[3] = 146;
+            green[4] = 146;
+            green[5] = 146;
+            green[6] = 0;
+            green[7] = 254;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 89:
+             
+            green[0] = 0;
+            green[1] = 254;
+            green[2] = 146;
+            green[3] = 146;
+            green[4] = 146;
+            green[5] = 0;
+            green[6] = 254;
+            green[7] = 18;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 90:
+             
+            green[0] = 254;
+            green[1] = 146;
+            green[2] = 146;
+            green[3] = 146;
+            green[4] = 0;
+            green[5] = 254;
+            green[6] = 18;
+            green[7] = 18;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 91:
+             
+            green[0] = 146;
+            green[1] = 146;
+            green[2] = 146;
+            green[3] = 0;
+            green[4] = 254;
+            green[5] = 18;
+            green[6] = 18;
+            green[7] = 12;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 92:
+             
+            green[0] = 146;
+            green[1] = 146;
+            green[2] = 0;
+            green[3] = 254;
+            green[4] = 18;
+            green[5] = 18;
+            green[6] = 12;
+            green[7] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 93:
+             
+            green[0] = 146;
+            green[1] = 0;
+            green[2] = 254;
+            green[3] = 18;
+            green[4] = 18;
+            green[5] = 12;
+            green[6] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 94:
+             
+            green[0] = 0;
+            green[1] = 254;
+            green[2] = 18;
+            green[3] = 18;
+            green[4] = 12;
+            green[5] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 95:
+             
+            green[0] = 254;
+            green[1] = 18;
+            green[2] = 18;
+            green[3] = 12;
+            green[4] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 96:
+             
+            green[0] = 18;
+            green[1] = 18;
+            green[2] = 12;
+            green[3] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 97:
+             
+            green[0] = 18;
+            green[1] = 12;
+            green[2] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 98:
+             
+            green[0] = 12;
+            green[1] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            break;
+            
+            case 99:
+             
+            green[0] = 0;
+            blue[0] = 255-green[0];
+            blue[1] = 255-green[1];
+            blue[2] = 255-green[2];
+            blue[3] = 255-green[3];
+            blue[4] = 255-green[4];
+            blue[5] = 255-green[5];
+            blue[6] = 255-green[6];
+            blue[7] = 255-green[7];
+            counting = 0;
+            break;
+            
