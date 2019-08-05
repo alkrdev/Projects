@@ -1,0 +1,36 @@
+html {
+    color: whitesmoke;
+    background-color: darkgray;
+}
+
+body {
+    margin: 50px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td div {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr {
+    background-color: #000000;
+}
+
+.tableHeader {
+    width: 16.6%;
+}
+
+#tableColumnLamp {
+    width: 5%;
+}
+
+#tableColumnMast {
+    width: 28%;
+}

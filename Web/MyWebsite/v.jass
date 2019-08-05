@@ -1,0 +1,87 @@
+//TESH.scrollpos=33
+//TESH.alwaysfold=0
+
+function Trig_teleport_me_to_delphi_Conditions takes nothing returns boolean
+    return GetItemTypeId(GetSoldItem())=='I0BK' or GetItemTypeId(GetSoldItem())=='I0F1' or GetItemTypeId(GetSoldItem())=='I0FA' or GetItemTypeId(GetSoldItem())=='I0G2' or GetItemTypeId(GetSoldItem())=='I0BH' or GetItemTypeId(GetSoldItem())=='I0BH' or GetItemTypeId(GetSoldItem())=='I0F2' or GetItemTypeId(GetSoldItem())=='I0FS' or GetItemTypeId(GetSoldItem())=='I0BI' or GetItemTypeId(GetSoldItem())=='I0FR' or GetItemTypeId(GetSoldItem())=='I0F3' or GetItemTypeId(GetSoldItem())=='I0F8' or GetItemTypeId(GetSoldItem())=='I0FE' or GetItemTypeId(GetSoldItem())=='I0FT' or GetItemTypeId(GetSoldItem())=='I0F4' or GetItemTypeId(GetSoldItem())=='I0F5' or GetItemTypeId(GetSoldItem())=='I0FQ' or GetItemTypeId(GetSoldItem())=='I0BJ'
+endfunction
+function Trig_teleport_me_to_delphi_Func001Func007001002001 takes nothing returns boolean
+    return ( GetUnitTypeId(GetFilterUnit()) != 'n003' )
+endfunction
+function Trig_teleport_me_to_delphi_Func001Func007001002002 takes nothing returns boolean
+    return ( GetUnitTypeId(GetFilterUnit()) != 'n01J' )
+endfunction
+function Trig_teleport_me_to_delphi_Func001Func007001002 takes nothing returns boolean
+    return GetBooleanAnd( Trig_teleport_me_to_delphi_Func001Func007001002001(), Trig_teleport_me_to_delphi_Func001Func007001002002() )
+endfunction
+function Trig_teleport_me_to_delphi_Func001Func007002 takes nothing returns nothing
+    call SetUnitPositionLoc( GetEnumUnit(), udg_point1 )
+endfunction
+
+
+
+function Trig_teleport_me_to_delphi_Actions takes nothing returns nothing
+
+    local unit tu=GetSellingUnit()
+    local unit h=GetBuyingUnit()
+    local location loc
+
+    if GetItemTypeId(GetSoldItem()) == 'I0BK' or GetItemTypeId(GetSoldItem())=='I0F1' then //Athens
+        set loc=GetRectCenter(gg_rct_spawn_heroes)
+    endif
+
+    if (GetUnitTypeId(tu) == 'H018') and (GetItemTypeId(GetSoldItem()) == 'I0BH') then //Delphi
+        if ( GetHeroLevel(udg_playerHero[GetPlayerId(GetOwningPlayer(h))+1]) >= 75 ) then
+            set loc=Location(-24780., -14000.)
+        else
+            call DisplayTextToForce( GetForceOfPlayer(GetOwningPlayer(h)), "|cffff0000Requires level 75.|r" )
+            call AdjustPlayerStateBJ( 2000, GetOwningPlayer(h), PLAYER_STATE_RESOURCE_GOLD )
+        endif
+    elseif (GetUnitTypeId(tu) == 'H019') and (GetItemTypeId(GetSoldItem()) == 'I0BG') then //Locris
+        if ( GetHeroLevel(udg_playerHero[GetPlayerId(GetOwningPlayer(h))+1]) >= 55 ) then
+            set loc=Location(-18730., -24800.) // Change to correct position in Locris
+        else
+            call DisplayTextToForce( GetForceOfPlayer(GetOwningPlayer(h)), "|cffff0000Requires level 55.|r" )
+            call AdjustPlayerStateBJ( 1200, GetOwningPlayer(h), PLAYER_STATE_RESOURCE_GOLD )
+        endif
+    elseif (GetUnitTypeId(tu) == 'H01A') and (GetItemTypeId(GetSoldItem()) == 'I0BI') then //Estallah
+        if ( GetHeroLevel(udg_playerHero[GetPlayerId(GetOwningPlayer(h))+1]) >= 30 ) then
+            set loc=Location(-11640., -19180.) // Change to correct position in Estallah
+        else
+            call DisplayTextToForce( GetForceOfPlayer(GetOwningPlayer(h)), "|cffff0000Requires level 30.|r" )
+            call AdjustPlayerStateBJ( 700, GetOwningPlayer(h), PLAYER_STATE_RESOURCE_GOLD )
+        endif
+    elseif (GetUnitTypeId(tu) == 'H01B') and (GetItemTypeId(GetSoldItem()) == 'I0BJ') then //New Issus
+        if ( GetHeroLevel(udg_playerHero[GetPlayerId(GetOwningPlayer(h))+1]) >= 15 ) then
+            set loc=Location(-1910., -17760.) // Change to correct position in New Issus
+        else
+            call DisplayTextToForce( GetForceOfPlayer(GetOwningPlayer(h)), "|cffff0000Requires level 15.|r" )
+            call AdjustPlayerStateBJ( 500, GetOwningPlayer(h), PLAYER_STATE_RESOURCE_GOLD )
+        endif    
+    endif
+
+    if loc!=null then
+        set bj_lastCreatedEffect = AddSpecialEffectTarget("Abilities\\Spells\\Human\\MassTeleport\\MassTeleportTarget.mdl",udg_playerHero[GetPlayerId(GetOwningPlayer(h))+1],"overhead")
+        
+        call TriggerExecute( gg_trg_Destroy_FX )
+            call TriggerSleepAction(0.25)
+            set udg_point1=loc
+            call ForGroupBJ( GetUnitsOfPlayerMatching(GetOwningPlayer(h), Condition(function Trig_teleport_me_to_delphi_Func001Func007001002)), function Trig_teleport_me_to_delphi_Func001Func007002 )
+            if IsUnitSelected(tu,GetOwningPlayer(h))==true then
+                call PanCameraToTimedLocForPlayer(GetOwningPlayer(h), loc, 0 )
+                call SelectUnitForPlayerSingle( udg_playerHero[GetPlayerId(GetOwningPlayer(h))+1], GetOwningPlayer(h) )
+            endif
+        call RemoveLocation(loc)
+        set loc = null
+    endif
+        set tu=null
+        set h=null
+endfunction
+
+
+//===========================================================================
+function InitTrig_teleport_me_to_athens_delphi_locris_estallah_new_issus takes nothing returns nothing
+    set gg_trg_teleport_me_to_athens_delphi_locris_estallah_new_issus = CreateTrigger(  )
+    call TriggerRegisterAnyUnitEventBJ( gg_trg_teleport_me_to_athens_delphi_locris_estallah_new_issus, EVENT_PLAYER_UNIT_SELL_ITEM )
+    call TriggerAddCondition( gg_trg_teleport_me_to_athens_delphi_locris_estallah_new_issus, Condition( function Trig_teleport_me_to_delphi_Conditions ) )
+    call TriggerAddAction( gg_trg_teleport_me_to_athens_delphi_locris_estallah_new_issus, function Trig_teleport_me_to_delphi_Actions )
+endfunction

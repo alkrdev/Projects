@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+div {
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 100px;
+}
+
+button  {
+    margin: 20px 0px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px; 
+}
+
+#startButton, .endingButtons {
+    width: 200px;
+    Height: 100px;
+}
+
+#numberContainer, #sumOfNumbers, #congratulatoryText, #endSum {
+    font-size: 40px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- This deals with how many characters are recognized -->
+        <meta charset="UTF-8">
+        <!-- This sets the initial scale -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="index.css">
+        
+        <!-- This imports the Jquery library -->
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+
+        <title>Tärningsspelet</title>
+    </head>
+    <body>
+        <div>Tärningsspelet</div>
+
+        <div id="numberContainer">Hej, välkommen till Tärningsspelet!
+                Du får välja hur många tärningar du vill kasta med och om du lyckas få en 6:a så kommer du att automatiskt få rulla två tärningar till.
+                När du inte får nummer 6 från någon tärning så får du starta om eller stänga programmet - Lycka till !</div>
+
+        <div id="sumOfNumbers">-------------</div>
+
+        <div>
+            <!-- Start Button -->
+            <button type="button" id="startButton">Start</button>
+
+            <button style="display: none" type="button" class="diceButton" id="oneDice">1</button>
+            <button style="display: none" type="button" class="diceButton" id="twoDice">2</button>
+            <button style="display: none" type="button" class="diceButton" id="threeDice">3</button>
+            <button style="display: none" type="button" class="diceButton" id="fourDice">4</button>
+            <button style="display: none" type="button" class="diceButton" id="fiveDice">5</button>
+
+            <button style="display: none" type="button" class="endingButtons" id="restartButton">Börja om</button>
+            <button style="display: none" type="button" class="endingButtons" id="quitButton">Avsluta</button>
+        </div>
+
+        <div style="display: none" id="congratulatoryText">Grattis, en av dina tärningar rullade fram nummer 6, nu rullas två nya tärningar för dig automatiskt!</div>
+        <div id="endSum"></div>
+
+        <script src="Index.js"></script>
+    </body>
+</html>
