@@ -1,0 +1,14 @@
+#Added          //new features.
+- Added "Hover" functionality
+    
+#Changed        //changes in existing functionality.
+- Scaled size from 1 to 2
+- Set "Opened Nav" to initial state
+
+#Removed        //removed features.
+- Removed "Click" functionality
+
+#Fixed          //any bug fixes.
+- Refactored a massive chunk of code
+
+#Security       //vulnerabilities.
