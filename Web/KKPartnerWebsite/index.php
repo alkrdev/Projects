@@ -27,17 +27,21 @@
 	<body>
 		
 		<!-- HeaderNav -->
-		<div id="headerNav">
+		<div id="headerNav">  
 			<!-- Icon -->
-			<div id="icon">
-				
+			<div id="icon" class="grid-item">
+				<img src="https://via.placeholder.com/200" alt="">
 			</div>
+
+
 			<!-- MainNav -->
-			<div id="mainNav">
+			<div id="mainNav" class="grid-item">
 				
 			</div>
+
+
 			<!-- CornerNav -->
-			<div id="cornerNav">
+			<div id="cornerNav" class="grid-item">
 				
 			</div>
 		</div>
