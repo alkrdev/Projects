@@ -1,171 +1,152 @@
-* {
-	position: relative;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	list-style: none;
+#circle {
+    display: flex;
+    align-items: center;
+    z-index: 11;
+    padding-top: 0em;
+    width: 18em;
+    height: 18em;
+    border: none;
+    background: none;
+    color: #15315C;
+    font-size: 1.5em;
 }
 
-html,
-body {
-	-webkit-font-smoothing: antialiased;
-	
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	height: 100%;
+#MainContent {
+    height: 800px;
 }
 
-body {
-	background: white;
-	color: #fff;
-}
-
-.circle {
-	display: flex;
-	align-items: center;
-	z-index: 11;
-	padding-top: 0em;
-	width: 18em;
-	height: 18em;
-	border: none;
-	background: none;
-	color: #15315C;
-	font-size: 1.5em;
-}
-
-/* COLLECTIVE NAV */
+/* COLLECTIVE navigationElements */
 #headerNav {
-	box-shadow: 0px 0px 10px rgb(92, 92, 92);
-	height: 10%;
+    box-shadow: 0px 0px 10px rgb(92, 92, 92);
+    height: 10%;
 }
 
 /* COLLECTIVE START */
-.content {
-	width: 100%;
+#content {
+    width: 100%;
 }
 
-.nav {	
-	padding: .5em;
+#navigationElements {
+    padding: .5em;
 }
 
-.nav, .circle {
-	margin: auto;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
+#navigationElements, #circle {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
-.nav, .nav li {
-	overflow: hidden;
+#navigationElements .circleContent {
+    z-index: 200;
 }
 
-.nav li a {
-	text-decoration: none;
+#navigationElements, #navigationElements .circleContent {
+    overflow: hidden;
 }
 
-.nav, .nav:after, .nav li a, .circle {
-	border-radius: 50%
+#navigationElements .circleContent a {
+    text-decoration: none;
 }
 
-.nav, .nav:after, .nav li, .nav li a, .circle {
-	position: absolute;
+#navigationElements, #navigationElements:after, #navigationElements .circleContent a, #circle {
+    border-radius: 50%
 }
 
-.nav, .circle, 
-.nav li a:hover,
-.nav li a:active,
-.nav li a:focus {
-	background-color: #fff
+#navigationElements, #navigationElements:after, #navigationElements .circleContent, #navigationElements .circleContent a, #circle {
+    position: absolute;
 }
 
-.nav:after, .nav li a, .nav li a span {
-	display: block;
+#navigationElements, #circle,
+#navigationElements .circleContent a:hover,
+#navigationElements .circleContent a:active,
+#navigationElements .circleContent a:focus {
+    background-color: #fff
 }
 
-.nav:after, .nav li {
-	left: 50%;
-	top: 50%;
+#navigationElements:after, #navigationElements .circleContent {
+    left: 50%;
 }
 
-.nav li a, .circle {
-	backface-visibility: hidden;
-	-webkit-backface-visibility: hidden;
+#navigationElements .circleContent a, #circle {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
-.nav li, .nav li a, .circle {
-	text-align: center;
+#navigationElements .circleContent, #navigationElements .circleContent a, #circle {
+    text-align: center;
 }
 
-.nav li a span, .circle {
-	font-weight: 700;
-	text-transform: uppercase;
+#navigationElements .circleContent a span, #circle {
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 /* COLLECTIVE END */
 
 /* CSSTRANSFORMS START */
 
-.csstransforms .nav {
-	z-index: 10;
-	width: 27em;
-	height: 27em;
-	background: transparent;
-	-webkit-transform: scale(1.5);
-	-moz-transform: scale(1.5);
-	-ms-transform: scale(1.5);
-	transform: scale(1.5);
+#navigationElements {
+    z-index: 10;
+    width: 27em;
+    height: 27em;
+    background: transparent;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
 }
 
-.csstransforms .nav:after{
-	content:".";
-	font-size:2em;
-	width:6.2em;
-	height:6.2em;
-	margin-left: -3.1em;
-	margin-top: -3.1em;
-	color: transparent;
+#navigationElements:after {
+    content: ".";
+    font-size: 2em;
+    width: 6.2em;
+    height: 6.2em;
+    margin-left: -3.1em;
+    margin-top: -3.1em;
+    color: transparent;
 }
 
-.csstransforms .nav li {
-	margin-top: -1.3em;
-	margin-left: -10em;
-	width: 10em;
-	height: 10em;
-	font-size: 1.5em;
-	-webkit-transform-origin: 100% 100%;
-	-moz-transform-origin: 100% 100%;
-	transform-origin: 100% 100%;
+#navigationElements .circleContent {
+    margin-top: -1.3em;
+    margin-left: -10em;
+    width: 10em;
+    height: 10em;
+    font-size: 1.5em;
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
 }
 
-.csstransforms .nav li a {
-	right: -7.25em;
-	bottom: -7.25em;
-	width: 14.5em;
-	height: 14.5em;
-	background: #15315C;
-	background: -webkit-radial-gradient(transparent 35%, #15315C 35%);
-	background: -moz-radial-gradient(transparent 35%, #15315C 35%);
-	background: radial-gradient(transparent 35%, #15315C 35%);
-	color: #fff;
-	font-size: 1.2em;
-	line-height: 2;
+#navigationElements .circleContent a {
+    right: -7.25em;
+    bottom: -7.25em;
+    width: 14.5em;
+    height: 14.5em;
+    background: #15315C;
+    background: -webkit-radial-gradient(transparent 35%, #15315C 35%);
+    background: -moz-radial-gradient(transparent 35%, #15315C 35%);
+    background: radial-gradient(transparent 35%, #15315C 35%);
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 2;
 }
 
-.csstransforms .nav li a span {
-	top: 1.8em;
-	font-size: 12px;
+#navigationElements .circleContent a span {
+    top: 1.8em;
+    font-size: 12px;
 }
 
-.csstransforms .nav li a:hover,
-.csstransforms .nav li a:active,
-.csstransforms .nav li a:focus {
-	background: -webkit-radial-gradient(transparent 35%, rgb(28, 66, 122) 35%);
-	background: -moz-radial-gradient(transparent 35%, rgb(28, 66, 122) 35%);
-	background: radial-gradient(transparent 35%, rgb(28, 66, 122) 35%);
+#navigationElements .circleContent a:hover,
+#navigationElements .circleContent a:active,
+#navigationElements .circleContent a:focus {
+    background: -webkit-radial-gradient(transparent 35%, rgb(28, 66, 122) 35%);
+    background: -moz-radial-gradient(transparent 35%, rgb(28, 66, 122) 35%);
+    background: radial-gradient(transparent 35%, rgb(28, 66, 122) 35%);
 }
 
-.csstransforms .nav li a:focus {
+#navigationElements .circleContent a:focus {
     position: fixed;
 }
 

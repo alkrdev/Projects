@@ -3,22 +3,22 @@ $(document).ready(function(){
 });
 
 function SetInitialRotatedObjects(rotation, gapModifier, rotateDegrees) {
-	$(".csstransforms .nav li").css(
+	$("li.circleContent").css(
 		"-webkit-transform", "skew(" + gapModifier + ")",
 		"-moz-transform", "skew(" + gapModifier + ")",
 		"-ms-transform", "skew(" + gapModifier + ")",
 		"transform", "skew(" + gapModifier + ")"
 	);
 
-	$(".csstransforms .nav li a").css(
-		"-webkit-transform", " skew(-" + gapModifier + ") rotate(-" + rotateDegrees + ") scale(1)",
-		"-moz-transform", "skew(-" + gapModifier + ") rotate(-" + rotateDegrees + ") scale(1)",
-		"-ms-transform", "skew(-" + gapModifier + ") rotate(-" + rotateDegrees + ") scale(1)",
-		"transform", "skew(-" + gapModifier + ") rotate(-" + rotateDegrees + ") scale(1)"
+	$("li.circleContent a").css(
+		"-webkit-transform", " skew(-" + gapModifier + ") rotate(-" + rotateDegrees + ")",
+		"-moz-transform", "skew(-" + gapModifier + ") rotate(-" + rotateDegrees + ")",
+		"-ms-transform", "skew(-" + gapModifier + ") rotate(-" + rotateDegrees + ")",
+		"transform", "skew(-" + gapModifier + ") rotate(-" + rotateDegrees + ")"
 	);
 
 	for (let i = 1; i <= 9; i++) {
-		$(".csstransforms .nav li:nth-child(" + i + ")").css(
+		$("li.circleContent:nth-child(" + i + ")").css(
 			"-webkit-transform", "rotate(" + rotation + "deg) skew(" + gapModifier + ")",
 			"-moz-transform", "rotate(" + rotation + "deg) skew(" + gapModifier + ")",
 			"-ms-transform", "rotate(" + rotation + "deg) skew(" + gapModifier + ")",
@@ -28,14 +28,17 @@ function SetInitialRotatedObjects(rotation, gapModifier, rotateDegrees) {
 	};
 };
 
-$( "li" ).hover(
-	function() {
-		$(".content").text(
+$(".circleContent").hover(
+    
+    function () {
+        console.log("HOVERED")
+		$("#content").text(
 			$( this ).text()
 		)
 	}, 
-	function() {
-		$(".content").text(
+    function () {
+        console.log("HOVERED")
+		$("#content").text(
 			"KK-Partner"
 		)
 	}
